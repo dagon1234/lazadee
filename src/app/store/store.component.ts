@@ -4,7 +4,7 @@ import { ProductRepository } from '../model/product.repository';
 
 @Component({
   selector: 'store',
-  templateUrl: 'store.component.ts',
+  templateUrl: 'store.component.html',
 })
 export class StoreComponent {
   constructor(private repository: ProductRepository) {}
